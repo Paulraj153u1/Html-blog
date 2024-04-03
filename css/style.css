@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: black;
+    color: white;
+    padding: 12px;
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    display: inline;
+    margin-right: 15px;
+    
+}
+
+ul li a{
+    text-decoration: none;
+    color: antiquewhite;
+    font-weight: bolder;
+    font-size: large;
+}
