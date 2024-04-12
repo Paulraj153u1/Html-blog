@@ -38,3 +38,18 @@ ul li a{
     margin: 10px;
     text-align: center;
 }
+.product p {
+    color: chocolate;
+    font-weight: bold;
+}
+.product button {
+    background-color: black;
+    color: antiquewhite;
+    border: none;
+padding: 5px;
+}
+.product button:hover{
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: blue;
+}
