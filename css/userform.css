@@ -18,3 +18,52 @@ body {
     padding: 100px;
     box-sizing: border-box;
 }
+.logo{
+    background: url(../userformImage/loginImg.jpg);
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 2px 2px 2px chartreuse;
+}
+.logoName{
+ font-family: "Times New Roman", Times, serif;
+ color: rgb(20, 20, 20);
+ font-weight: bolder;
+ /* letter-spacing: .5em; */
+ font-size: large;
+ margin: 5px;
+}
+.inputs{
+    text-align:  left;
+}
+
+label,input,button{
+    display: block;
+    width: 100%;
+    padding: 5px;
+    /* margin: 1px; */
+    border: none;
+}
+
+label{
+    color: brown;
+    font-size: large;
+}
+input{
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: inset  -3px -3px 6px rgba(94, 87, 87, 0.5), 3px 3px 6px rgba(255, 255,       255, 0.5)
+}
+
+button {
+    padding: 10px;
+    width: 100%; /* Set the width to 100% to fill the container */
+    margin: 5px;
+    background-color: darkgreen;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: inset -3px -3px 6px whitesmoke, 3px 3px 6px white;
+}
