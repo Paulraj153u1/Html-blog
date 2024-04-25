@@ -1,0 +1,50 @@
+/*  star elements denots as body */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+.row-poster{
+    width: 100%;
+    object-fit: contain;
+    max-height: 100px;
+    margin-right: 10px;
+    /* transition: transform 450ms;
+    transition: all; */
+    /* transition: 450ms; */
+    transition:  transform 450ms;
+}
+.rowposter{
+  display:flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 20px;
+}
+
+.row-poster:hover{
+    transform: scale(1.08) !important;
+}
+
+.rowposter::-webkit-scrollbar
+{
+    display: none;
+}
+.rowlarge:hover{
+    transform: scale(1) !important;
+}
+
+.row {
+    color: white;
+    margin-left: 20px;
+}
+.banner{
+    background:url(../image.png);
+    background-size: cover;
+    background-position: center;
+}

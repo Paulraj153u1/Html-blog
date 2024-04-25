@@ -9,5 +9,116 @@ body{
 }
 .container{
     width: 70%;
-    margin: 0px auto;
+    margin: 5px auto;
+}
+.header img{
+    border-radius: 45%;
+    border: 2px red solid;
+}
+
+.header ul{
+ float: right;
+ 
+}
+.header ul li{
+    display: inline;
+    /* list-style: none; */
+    font-size: 20px;
+    color: blue;
+    padding: 5px;
+    background-color: antiquewhite;
+    
+}
+.header ul{
+  align-content: center;
+ margin-top: 30px;
+
+
+}
+.header ul li a {
+    text-decoration: none;
+    justify-content: space-between;
+    
+    margin: 5px;
+    cursor: pointer;
+}
+.banner img{
+ width: 100%;
+ border-radius: 10px;
+}
+.Bannercontent1{
+    width: 32%;
+    background-color: aqua;
+    border-radius: 5px;
+    border: 2px black solid;
+    height: 400px;
+    float: left;
+    margin-right: 1%;
+
+}
+.Bannercontent2{
+    width: 32%;
+    background-color: rgb(255, 166, 0);
+    border-radius: 5px;
+    border: 2px black solid;
+    padding-left: 4px;
+    height: 400px;
+    float:left;
+    margin-right: 1%;
+}
+
+.heading{
+    color: chocolate;
+    margin-left: 10px;
+}
+.pagecontent{
+    margin-left: 10px;
+    text-align: justify;
+    margin-right: 10px;
+}
+.Bannercontent1 a {
+    margin-left: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bolder;
+}
+.Bannercontent1 a:hover{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+.Bannercontent2 a {
+    margin-left: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bolder;
+}
+.Bannercontent2 a:hover{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.Bannercontent3{
+    width: 32%;
+    background-color:darkcyan;
+    border-radius: 5px;
+    border: 2px black solid;
+    height: 400px;
+    float: right;
+    /* margin-right: 1%; */
+}
+.Bannercontent3 a {
+    margin-left: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bolder;
+}
+.Bannercontent3 a:hover{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
 }
